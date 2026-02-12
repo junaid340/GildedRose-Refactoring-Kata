@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 import unittest
 
-from gilded_rose import Item, GildedRose
+from src.gilded_rose import Item, GildedRose
 
 
 class GildedRoseTest(unittest.TestCase):
     def test_foo(self):
-        items = [Item("foo", 0, 0)]
+        items = [Item(name="foo", sell_in=0, quality=0)]
         gilded_rose = GildedRose(items)
         gilded_rose.update_quality()
         self.assertEqual("fixme", items[0].name)
