@@ -5,6 +5,7 @@ from .db import *
 
 
 def main():
+    print("OMGHAI!")
     items = get_items()
 
     days = 2
