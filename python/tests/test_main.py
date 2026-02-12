@@ -5,6 +5,7 @@ from contextlib import redirect_stdout
 from src.main import main
 from approvaltests import verify
 
+# Test for the main function, which will run the program for 20 days and verify the output using approval tests
 class MainTest(unittest.TestCase):
     def test_20_days(self):
         sys.argv = ["main.py", "20"] 

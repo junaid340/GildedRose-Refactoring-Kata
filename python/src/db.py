@@ -1,5 +1,6 @@
 from .gilded_rose import *
 
+# Extracted from texttest_fixture.py to a new file to separate concerns and make it easier to manage items in the future
 def get_items():
     return [
         Item(name="+5 Dexterity Vest", sell_in=10, quality=20),

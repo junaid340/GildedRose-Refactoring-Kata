@@ -3,7 +3,7 @@ import sys
 from .gilded_rose import *
 from .db import *
 
-
+# Refactored from texttest_fixture.py to a new file to separate concerns and make it easier to manage items in the future
 def main():
     print("OMGHAI!")
     items = get_items()
